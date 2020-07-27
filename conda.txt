@@ -1,5 +1,6 @@
-#conda初始化powershell终端
-conda init powershell
+#conda激活使用powershell
+conda install -n root -c pscondaenvs pscondaenvs
+Set-ExecutionPolicy RemoteSigned
 
 #conda创建新环境
 conda create --name myname python=3.7
