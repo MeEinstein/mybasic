@@ -1,0 +1,21 @@
+#conda初始化powershell终端
+conda init powershell
+
+#conda创建新环境
+conda create --name myname python=3.7
+
+#查看所有的conda环境
+conda env list
+
+#激活myname环境
+conda activate myname
+
+#安装一个包
+conda install tkinter
+#或者
+pip install tkinter
+
+#查看所在环境中的所有包
+conda list
+
+
