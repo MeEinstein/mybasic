@@ -12,9 +12,9 @@ conda env list
 conda activate myname
 
 #安装一个包
-conda install tkinter
+conda install pandas
 #或者
-pip install tkinter
+pip install pandas
 
 #查看所在环境中的所有包
 conda list
